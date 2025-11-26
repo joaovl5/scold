@@ -34,7 +34,7 @@ When running `scold new repository`, we get a form prompting for our inputs:
 
 ## Installation
 
-As Scold is still in active development, if you want to use it you must clone the repository, after that you should be able to install the `scold` cli with:
+The easiest way to install the `scold` cli is with [uv](https://docs.astral.sh/uv/getting-started/installation/). You can do the following to install it in your system:
 ```bash
-uv tool install -e .
+uv tool install scold-cli
 ```
