@@ -2,7 +2,12 @@
 
 ## About 
 
-`scold` is a CLI tool for reducing manual copy-pasting of boilerplate/scaffolding code, it let's developers define custom templates for different kinds of objects (services, database entities, etc) that `scold` will render when running `scold new <object_type>`, while prompting for questions in the template.
+This is **Scold** (name comes from sc(aff)old) and it handles code generation of types of code objects in your project, similar to what is seen in frameworks like Django or Laravel, 
+but generalized in a way to fit whatever are your needs.
+
+`scold` helps in reducing manual copy-pasting of boilerplate/scaffolding code, it let's developers define custom templates for different kinds of objects (services, database entities, etc) that `scold` will render when running `scold new <object_type>`, while prompting for questions in the template.
+
+I wasn't satisfied with the solutions I found online, the few I saw are in Javascript, but I wanted something native in Python that could be more easily included in projects without external dependencies. For the life of me I couldn't find something in Python, so I made this.
 
 ### Usage
 
@@ -38,3 +43,10 @@ The easiest way to install the `scold` cli is with [uv](https://docs.astral.sh/u
 ```bash
 uv tool install scold-cli
 ```
+
+## Acknowledgements
+
+This project would not be possible if not for:
+- [Hygen](https://github.com/jondot/hygen) - similar tool (although seems abandoned) written in the JS ecossystem, inspired Scold and its idea of templates within directories
+- [Copier](https://github.com/copier-org/copier) - project templating tool for Python, doesn't focus in smaller pieces of code as Scold does, but Scold's means to render templates implicitly and the declarative form configs were inspired from this tool as well.
+- [uv](https://docs.astral.sh/uv/) - my beloved python tooling stack
