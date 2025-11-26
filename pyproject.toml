@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Scaffolding generation CLI"
 readme = "README.md"
 requires-python = ">=3.12"
+license = "GPL-3.0"
+license-files = ["LICENSE"]
 authors = [{ name = "João Pedro", email = "vieiraleao2005@gmail.com" }]
+classifiers = ["Topic :: Utilities"]
 dependencies = [
   "attrs>=25.4.0",
   "case-converter>=1.2.0",
@@ -16,6 +19,10 @@ dependencies = [
   "questionary>=2.1.1",
   "rich>=14.2.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/joaovl5/scold"
+Issues = "https://github.com/joaovl5/scold/issues"
 
 [project.scripts]
 scold = "scold:app"
