@@ -1,5 +1,5 @@
 [project]
-name = "scold"
+name = "scold-cli"
 version = "0.1.0"
 description = "Scaffolding generation CLI"
 readme = "README.md"
@@ -23,3 +23,6 @@ scold = "scold:app"
 [build-system]
 requires = ["uv_build>=0.9.8,<0.10.0"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "scold"
