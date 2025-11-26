@@ -1,10 +1,10 @@
 [project]
 name = "scold-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "Scaffolding generation CLI"
 readme = "README.md"
 requires-python = ">=3.12"
-license = "GPL-3.0"
+license = "GPL-3.0-only"
 license-files = ["LICENSE"]
 authors = [{ name = "João Pedro", email = "vieiraleao2005@gmail.com" }]
 classifiers = ["Topic :: Utilities"]
