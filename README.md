@@ -28,6 +28,10 @@ vars = [
 
 Then, in the directory for our object 'repository', we must have a `__template` folder (whole folder will be copied) OR a `__template.*` file (only file will be copied). Then you can use Mako's syntax in the template, benefitting from the variables declared in the `scold.toml` file.
 
+When running `scold new repository`, we get a form prompting for our inputs:
+<img width="453" height="213" alt="image" src="https://github.com/user-attachments/assets/aa784321-651b-4789-aea5-88105fe7603d" />
+
+
 ## Installation
 
 As Scold is still in active development, if you want to use it you must clone the repository, after that you should be able to install the `scold` cli with:
